@@ -1,0 +1,19 @@
+{
+  "name": "template-min-webcomponent",
+  "version": "0.0.0",
+  "description": "Webcomponent template-min-webcomponent following open-wc recommendations",
+  "author": "template-min-webcomponent",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "es-dev-server --app-index demo/index.html --node-resolve --preserve-symlinks"
+  },
+  "dependencies": {
+    "lit-html": "^1.1.2",
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.23.0"
+  }
+}
